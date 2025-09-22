@@ -1,0 +1,58 @@
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Asset meta
+*.pidb
+*.booproj
+*.svd
+
+# Auto-generated VS/Mono/Rider files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# === Rider ===
+.idea/
+*.iml
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Crash Reports ===
+sysinfo.txt
+
+# === Builds (optional, если вдруг генерируешь) ===
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+*.exe
+
+# === Addressables / Cache (регенерируемое) ===
+/ServerData/
+*.addressables
+
+# === Rider plugin cache ===
+/.idea/.idea.*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
