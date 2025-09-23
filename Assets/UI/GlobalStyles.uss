@@ -1,0 +1,84 @@
+.button-style {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    background-color: rgb(142, 29, 41);
+    background-image: none;
+    transition-duration: 0.1s;
+}
+
+.button-style:active {
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+    background-color: rgb(103, 35, 44);
+}
+
+.start-button {
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-style: normal;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    font-size: 52px;
+    color: rgb(180, 180, 180);
+    -unity-font-definition: url("project://database/Assets/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
+    -unity-text-align: lower-center;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+
+.start-button:focus {
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-style: normal;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    font-size: 58px;
+    color: rgb(142, 29, 41);
+    -unity-font-definition: url("project://database/Assets/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
+    -unity-text-align: lower-center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
