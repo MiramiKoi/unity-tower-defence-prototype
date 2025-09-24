@@ -44,7 +44,7 @@
     border-bottom-color: rgba(149, 149, 149, 0);
     font-size: 52px;
     color: rgb(180, 180, 180);
-    -unity-font-definition: url("project://database/Assets/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
     -unity-text-align: lower-center;
     letter-spacing: 15px;
     word-spacing: 10px;
@@ -75,10 +75,23 @@
     border-bottom-color: rgba(149, 149, 149, 0);
     font-size: 58px;
     color: rgb(142, 29, 41);
-    -unity-font-definition: url("project://database/Assets/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
+    -unity-font-definition: url("project://database/Assets/ThirdParty/Modern%20GDR%20-%20Free%20icons%20pack/01_Demo/Font/Jost-Regular.ttf?fileID=12800000&guid=c0b6c25c615e5864a82ef957492d9353&type=3#Jost-Regular");
     -unity-text-align: lower-center;
     letter-spacing: 5px;
     word-spacing: 10px;
     transition-duration: 0.2s;
     transition-timing-function: ease;
+}
+
+.settings-panel {
+    background-color: rgb(142, 29, 41);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    min-height: 440px;
+    max-height: 440px;
+    margin-top: 0;
+    min-width: 49%;
+    max-width: 49%;
 }
